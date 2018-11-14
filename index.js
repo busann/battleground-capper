@@ -1,5 +1,5 @@
 const Command = require('command');
-const CAPTURE_OPCODE = 26026;
+const CAPTURE_OPCODE = 42999;
 
 module.exports = function Cap(dispatch) {
     const command = Command(dispatch);
